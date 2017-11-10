@@ -483,6 +483,9 @@ ul li a i:hover{
     }
 }
 @media screen and (max-width: 767px) {
+    .navigation{
+        padding:10px 30px;
+    }
     .navigation nav {
         display: none;
     }
@@ -575,6 +578,7 @@ ul li a i:hover{
     .logo-left img{
         width: 100%;
         height: auto;
+        max-width: 300px;
     }
 
 }
@@ -585,6 +589,15 @@ ul li a i:hover{
     }
     .arrow{
         top:40%;
+    }
+    .left-content-one{
+        height: 227px;
+    }
+    .right-content-two{
+        height: 227px;
+    }
+    .left-content-three{
+        height: 227px;
     }
 
 }
