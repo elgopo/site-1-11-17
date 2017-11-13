@@ -600,12 +600,15 @@ ul li a i:hover{
     }
 
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 480px) {
     .li-border {
         padding-right:0;
         border:none;
         margin-right:0;
     }
+}
+@media screen and (max-width: 475px) {
+
     .slider-content {
         text-align: center;
         padding-left: 0;
