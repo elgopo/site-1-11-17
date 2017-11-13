@@ -440,7 +440,7 @@ ul li a i:hover{
         font-size: 18px;
     }
     .red-block {
-        padding:5px 70px;
+        padding:15px 70px;
     }
     .par-red-block, .big-par-red-block{
         font-size:14px;
@@ -450,41 +450,53 @@ ul li a i:hover{
         padding: 5px 10px;
     }
     .left-content-one{
-        width: 65%;
+        width: 50%;
+        height: 350px;
     }
     .center-content-one{
-        width: 35%;
+        width: 25%;
+        height: 350px;
+        background:url("../image/center-content-one.png") top  right no-repeat ;
     }
     .right-content-one{
-        display: none;
+        width: 25%;
+        height: 350px;
     }
     .left-content-two{
-        width: 35%;
+        width: 25%;
+        height: 350px;
+        background:url("../image/left-content-two.png") top  right no-repeat ;
     }
     .center-content-two{
-        display: none;
+        width: 25%;
+        height: 350px;
     }
     .right-content-two{
-        width: 65%;
+        width: 50%;
+        height: 350px;
     }
     .left-content-three{
-        width: 65%;
+        width: 50%;
+        height: 350px;
     }
     .center-content-three{
-        display: none;
+        width: 25%;
+        height: 350px;
     }
     .right-content-three{
-        width: 35%;
+        width: 25%;
+        height: 350px;
+        background:url("../image/right-content-three.png") top  right no-repeat ;
     }
 }
 @media screen and (max-width: 737px) {
     .header-contact {
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
 }
 @media screen and (max-width: 767px) {
     .navigation{
-        padding:10px 30px;
+        padding:10px 15px;
     }
     .navigation nav {
         display: none;
@@ -519,8 +531,6 @@ ul li a i:hover{
         margin: 10px auto 0;
         max-width: 100px;
     }
-}
-@media screen and (max-width: 767px) {
     .slider-image {
         background: url("../image/web-slide-black.png") top center no-repeat #000000;
         height: 320px;
@@ -542,18 +552,23 @@ ul li a i:hover{
         font-size: 20px;
     }
 }
-@media screen and (max-width: 600px) {
-    .logo, .red-block{
-        padding: 10px;
-    }
+@media screen and (max-width: 700px){
     .left-content-one{
         width: 100%;
     }
     .center-content-one{
-        display: none;
+        width: 50%;
+    }
+    .right-content-one{
+        width: 50%;
     }
     .left-content-two{
-        display: none;
+        width: 50%;
+        float: right;
+    }
+    .center-content-two{
+        width: 50%;
+        float: left;
     }
     .right-content-two{
         width: 100%;
@@ -561,13 +576,16 @@ ul li a i:hover{
     .left-content-three{
         width: 100%;
     }
-    .right-content-three{
-        display: none;
+    .center-content-three{
+        width: 51%;
     }
-    .li-border {
-        padding-right:0;
-        border:none;
-        margin-right:0;
+    .right-content-three{
+        width: 49%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo, .red-block{
+        padding: 10px 15px;
     }
     .list-right{
         margin-top: 0;
@@ -583,6 +601,11 @@ ul li a i:hover{
 
 }
 @media screen and (max-width: 475px) {
+    .li-border {
+        padding-right:0;
+        border:none;
+        margin-right:0;
+    }
     .slider-content {
         text-align: center;
         padding-left: 0;
@@ -591,15 +614,46 @@ ul li a i:hover{
         top:40%;
     }
     .left-content-one{
-        height: 227px;
+        width: 100%;
+        height: 450px;
+    }
+    .center-content-one{
+        width: 100%;
+        background:url("../image/center-content-one.png") top  center no-repeat ;
+        height: 450px;
+    }
+    .right-content-one{
+        width: 100%;
+        height: 450px;
+    }
+    .left-content-two{
+        width: 100%;
+        height: 450px;
+        background:url("../image/left-content-two.png") top  center no-repeat ;
+
+    }
+    .center-content-two{
+        width: 100%;
+        height: 450px;
+
     }
     .right-content-two{
-        height: 227px;
+        width: 100%;
+        height: 450px;
     }
     .left-content-three{
-        height: 227px;
+        width: 100%;
+        height: 450px;
     }
-
+    .center-content-three{
+        width: 100%;
+        height: 450px;
+    }
+    .right-content-three{
+        width: 100%;
+        height: 450px;
+        background:url("../image/right-content-three.png") top  center no-repeat ;
+    }
 }
 
 
