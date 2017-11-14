@@ -42,13 +42,20 @@ ul li{
      margin-left: 20px;
  }
 .select{
-    background-color: black;
+    background-color: #212121;
     color: white;
-    padding: 10px 10px 10px 15px;
+    padding: 7px 10px 7px 15px;
     font-size: 14px;
     margin-right:30px;
     border-radius: 4px;
 }
+.toll-free{
+    font-weight: 600;
+}
+.highway-ridley{
+    word-spacing: 5px;
+}
+
 .fa-angle-down {
     color:white;
     padding-left:15px;
@@ -83,7 +90,6 @@ ul li a i:hover{
 .list-right {
     float:right;
     font-size: 14px;
-    font-weight: 600;
     margin-top: 20px;
 }
 .title {
@@ -99,6 +105,10 @@ ul li a i:hover{
     float: left;
     margin-left: 10px;
 }
+.list-right ul li p i {
+    font-size: 16px;
+    color: #797979;
+}
 .list-right p span {
     display: block;
 }
@@ -108,7 +118,7 @@ ul li a i:hover{
     margin-right: 15px;
 }
 .navigation{
-    padding: 30px 140px;
+    padding: 24px 140px;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     right: 0;
@@ -135,7 +145,7 @@ ul li a i:hover{
     text-transform:uppercase;
     text-decoration: none;
     position: relative;
-    padding:24px 30px;
+    padding:18px 25px;
 }
 .navigation-menu li a:hover{
     color:#BF232C;
@@ -272,7 +282,7 @@ ul li a i:hover{
     flex-flow: column wrap;
     justify-content: center;
 }
-.img{
+.img-center{
     text-align: center;
 }
 
@@ -314,7 +324,7 @@ ul li a i:hover{
 
 
 
-                                       /*Images Block TWO */
+                                       /*Images Block Three */
 
 
 .left-content-three{
@@ -357,7 +367,10 @@ ul li a i:hover{
     }
     .navigation-menu li a{
         font-size: 16px;
-        padding:24px 10px;
+        padding:19px 10px;
+    }
+    .navigation{
+        padding: 25px 70px;
     }
 }
 @media screen and (max-width: 1171px){
@@ -389,17 +402,17 @@ ul li a i:hover{
     .padding{
         margin-left: 15px;
     }
-}
-@media screen and (max-width: 1030px) {
-    .header-contact{
-        padding: 10px 70px;
-    }
     .logo{
         padding: 30px 70px;
     }
-    .navigation{
-        padding: 30px 70px;
+    .header-contact{
+        padding: 10px 70px;
     }
+}
+@media screen and (max-width: 1030px) {
+
+
+
     .slider-content{
         padding-left: 75px;
     }
@@ -408,46 +421,6 @@ ul li a i:hover{
     }
     .red-block {
         padding:15px 70px;
-    }
-}
-@media screen and (max-width: 888px){
-    .header-contact{
-        text-align: center;
-    }
-    .header-contact-left{
-        float:none;
-    }
-    .header-contact-right{
-        float:none;
-        display: inline-block;
-    }
-    .logo{
-        display: block;
-        padding: 10px 70px;
-        text-align: center;
-    }
-    .logo-left, .list-right{
-        float: none;
-    }
-    .slider-content{
-        line-height:33px;
-        padding-top: 305px;
-    }
-    .slider-content h1, .slider-content h2 {
-        font-size: 30px;
-    }
-    .slider-content p{
-        font-size: 18px;
-    }
-    .red-block {
-        padding:15px 70px;
-    }
-    .par-red-block, .big-par-red-block{
-        font-size:14px;
-        line-height:17px;
-    }
-    .get-a-quote{
-        padding: 5px 10px;
     }
     .left-content-one{
         width: 50%;
@@ -488,6 +461,51 @@ ul li a i:hover{
         height: 350px;
         background:url("../image/right-content-three.png") top  right no-repeat ;
     }
+}
+@media screen and (max-width: 900px){
+    .header-contact{
+        text-align: center;
+    }
+    .header-contact-left{
+        float:none;
+    }
+    .header-contact-right{
+        float:none;
+        display: inline-block;
+    }
+    .logo{
+        display: block;
+        padding: 10px 70px;
+        text-align: center;
+    }
+    .logo-left, .list-right{
+        float: none;
+    }
+    .slider-content{
+        line-height:33px;
+        padding-top: 305px;
+    }
+    .slider-content h1, .slider-content h2 {
+        font-size: 30px;
+    }
+    .slider-content p{
+        font-size: 18px;
+    }
+    .red-block {
+        padding:15px 70px;
+    }
+    .par-red-block, .big-par-red-block{
+        font-size:14px;
+        line-height:17px;
+    }
+    .get-a-quote{
+        padding: 5px 10px;
+    }
+
+
+
+
+
 }
 @media screen and (max-width: 737px) {
     .header-contact {
@@ -587,12 +605,6 @@ ul li a i:hover{
     .logo, .red-block{
         padding: 10px 15px;
     }
-    .list-right{
-        margin-top: 0;
-    }
-    .list-right ul li p{
-        display: inline-block;
-    }
     .logo-left img{
         width: 100%;
         height: auto;
@@ -600,15 +612,21 @@ ul li a i:hover{
     }
 
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 500px) {
     .li-border {
         padding-right:0;
         border:none;
         margin-right:0;
     }
+    .list-right ul li{
+        display: block;
+        clear: both;
+        text-align: left;
+        margin: 5px auto 0;
+    }
 }
 @media screen and (max-width: 475px) {
-
     .slider-content {
         text-align: center;
         padding-left: 0;
@@ -624,6 +642,7 @@ ul li a i:hover{
         width: 100%;
         background:url("../image/center-content-one.png") top  center no-repeat ;
         height: 450px;
+        background-size: 100%;
     }
     .right-content-one{
         width: 100%;
@@ -633,7 +652,7 @@ ul li a i:hover{
         width: 100%;
         height: 450px;
         background:url("../image/left-content-two.png") top  center no-repeat ;
-
+        background-size: 100%;
     }
     .center-content-two{
         width: 100%;
@@ -655,7 +674,15 @@ ul li a i:hover{
     .right-content-three{
         width: 100%;
         height: 450px;
-        background:url("../image/right-content-three.png") top  center no-repeat ;
+        background:url("../image/right-content-three.png") top  center no-repeat;
+        background-size: 100% 100%;
+    }
+    .padding{
+        margin:0  10px 0 10px;
+    }
+
+    .par-content{
+        margin-bottom: 10px;
     }
 }
 
